@@ -89,103 +89,85 @@
 
         <!-- Founders -->
         <div style="margin-bottom:5rem;">
-          <div style="display:flex;align-items:center;gap:1rem;margin-bottom:2rem;">
-            <h2
-              style="font-size:1.1rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--text-muted);">
-              Founders</h2>
-            <div style="flex:1;height:1px;background:var(--border);"></div>
+          <div style="display:flex;align-items:flex-start;gap:1rem;margin-bottom:2rem;flex-wrap:wrap;">
+            <div style="max-width:38rem;">
+              <h2
+                style="font-size:1.1rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--text-muted);margin-bottom:0.65rem;">
+                Founders</h2>
+              <p style="color:var(--text-secondary);font-size:0.95rem;line-height:1.85;max-width:52ch;margin:0;">Meet
+                the founding leaders of CIMILab: research-focused founders who defined the lab mission and continue
+                shaping its work in trustworthy, reproducible AI.</p>
+            </div>
+            <div style="flex:1;height:1px;margin-top:0.8rem;background:var(--border);"></div>
           </div>
 
-          <div class="people-grid">
+          <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;">
 
             <!-- Samrat Kumar Dey -->
             <div class="card-accent"
-              style="padding:1.75rem 1.5rem;text-align:center;display:flex;flex-direction:column;align-items:center;height:100%;">
+              style="padding:2rem;display:flex;flex-direction:column;align-items:center;text-align:center;height:100%;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);box-shadow:0 28px 64px rgba(0,0,0,0.16);border-radius:1.5rem;">
               <div
-                style="width:120px;height:120px;border-radius:50%;overflow:hidden;margin-bottom:1.25rem;border:2px solid var(--border);background:var(--bg-secondary);">
+                style="width:150px;height:150px;border-radius:50%;overflow:hidden;margin-bottom:1.5rem;border:2px solid rgba(255,255,255,0.16);background:var(--bg-secondary);">
                 <img src="./images/team/samrat.jpg" alt="Samrat Kumar Dey"
                   style="width:100%;height:100%;object-fit:cover;" />
               </div>
-              <h3 style="font-size:1rem;font-weight:700;margin-bottom:0.25rem;letter-spacing:-0.02em;">Samrat Kumar Dey
-              </h3>
-              <p style="color:var(--accent);font-size:0.8rem;font-weight:600;margin-bottom:0.25rem;">Founder, CIMILab
+              <h3 style="font-size:1.35rem;font-weight:800;margin-bottom:0.4rem;letter-spacing:-0.03em;">Samrat Kumar
+                Dey</h3>
+              <p style="color:var(--accent);font-size:0.95rem;font-weight:700;margin-bottom:0.75rem;">Founder, CIMILab
               </p>
-              <p style="color:var(--text-faint);font-size:0.72rem;line-height:1.4;margin-bottom:1rem;">Founder at
-                CIMILab and PhD Student in Medical Informatics, MU Institute for Data Science and Informatics,
-                University of Missouri</p>
-              <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.3rem;margin-top:auto;">
+              <p
+                style="color:var(--text-faint);font-size:0.95rem;line-height:1.85;margin-bottom:1.5rem;max-width:42ch;">
+                Founder of CIMILab and PhD student in Medical Informatics at the MU Institute for Data Science and
+                Informatics, University of Missouri.</p>
+              <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.5rem;margin-bottom:1.5rem;">
                 <span
-                  style="font-size:0.68rem;padding:0.15rem 0.5rem;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:4px;color:var(--text-muted);">Medical
+                  style="font-size:0.75rem;padding:0.45rem 0.95rem;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.16);border-radius:999px;color:var(--text-muted);">Medical
                   Informatics</span>
                 <span
-                  style="font-size:0.68rem;padding:0.15rem 0.5rem;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:4px;color:var(--text-muted);">Deep
+                  style="font-size:0.75rem;padding:0.45rem 0.95rem;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.16);border-radius:999px;color:var(--text-muted);">Deep
                   Learning</span>
                 <span
-                  style="font-size:0.68rem;padding:0.15rem 0.5rem;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:4px;color:var(--text-muted);">Clinical
+                  style="font-size:0.75rem;padding:0.45rem 0.95rem;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.16);border-radius:999px;color:var(--text-muted);">Clinical
                   AI</span>
               </div>
-              <div style="display:flex;gap:0.625rem;padding-top:1rem;border-top:1px solid var(--border);">
+              <div style="display:flex;gap:0.75rem;">
                 <a href="https://github.com/CIMILab" target="_blank" rel="noopener noreferrer"
-                  class="btn btn-ghost btn-sm" aria-label="GitHub">
-                  <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85.004 1.7.115 2.5.337 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12c0-5.52-4.48-10-10-10z" />
-                  </svg>
-                  GitHub
-                </a>
-                <a href="mailto:deycimilab@gmail.com" class="btn btn-ghost btn-sm">
-                  <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    viewBox="0 0 24 24">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                    <polyline points="22,6 12,13 2,6" />
-                  </svg>
-                  Email
-                </a>
+                  class="btn btn-ghost btn-sm" aria-label="GitHub">GitHub</a>
+                <a href="mailto:deycimilab@gmail.com" class="btn btn-ghost btn-sm">Email</a>
               </div>
             </div>
 
             <!-- Arpita Howlader -->
             <div class="card-accent"
-              style="padding:1.75rem 1.5rem;text-align:center;display:flex;flex-direction:column;align-items:center;height:100%;">
+              style="padding:2rem;display:flex;flex-direction:column;align-items:center;text-align:center;height:100%;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);box-shadow:0 28px 64px rgba(0,0,0,0.16);border-radius:1.5rem;">
               <div
-                style="width:120px;height:120px;border-radius:50%;overflow:hidden;margin-bottom:1.25rem;border:2px solid var(--border);background:var(--bg-secondary);">
+                style="width:150px;height:150px;border-radius:50%;overflow:hidden;margin-bottom:1.5rem;border:2px solid rgba(255,255,255,0.16);background:var(--bg-secondary);">
                 <img src="./images/team/arpita.jpg" alt="Arpita Howlader"
                   style="width:100%;height:100%;object-fit:cover;" />
               </div>
-              <h3 style="font-size:1rem;font-weight:700;margin-bottom:0.25rem;letter-spacing:-0.02em;">Arpita Howlader
+              <h3 style="font-size:1.35rem;font-weight:800;margin-bottom:0.4rem;letter-spacing:-0.03em;">Arpita Howlader
               </h3>
-              <p style="color:var(--accent);font-size:0.8rem;font-weight:600;margin-bottom:0.25rem;">Founder, CIMILab
+              <p style="color:var(--accent);font-size:0.95rem;font-weight:700;margin-bottom:0.75rem;">Founder, CIMILab
               </p>
-              <p style="color:var(--text-faint);font-size:0.72rem;line-height:1.4;margin-bottom:1rem;">Founder at
-                CIMILab and PhD Student, MU Institute for Data Science and Informatics</p>
-              <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.3rem;margin-top:auto;">
+              <p
+                style="color:var(--text-faint);font-size:0.95rem;line-height:1.85;margin-bottom:1.5rem;max-width:42ch;">
+                Founder of CIMILab and PhD student at the MU Institute for Data Science and Informatics, advancing
+                intelligent systems and data science research.</p>
+              <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.5rem;margin-bottom:1.5rem;">
                 <span
-                  style="font-size:0.68rem;padding:0.15rem 0.5rem;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:4px;color:var(--text-muted);">Machine
+                  style="font-size:0.75rem;padding:0.45rem 0.95rem;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.16);border-radius:999px;color:var(--text-muted);">Machine
                   Learning</span>
                 <span
-                  style="font-size:0.68rem;padding:0.15rem 0.5rem;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:4px;color:var(--text-muted);">Data
+                  style="font-size:0.75rem;padding:0.45rem 0.95rem;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.16);border-radius:999px;color:var(--text-muted);">Data
                   Science</span>
                 <span
-                  style="font-size:0.68rem;padding:0.15rem 0.5rem;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:4px;color:var(--text-muted);">Intelligent
+                  style="font-size:0.75rem;padding:0.45rem 0.95rem;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.16);border-radius:999px;color:var(--text-muted);">Intelligent
                   Systems</span>
               </div>
-              <div style="display:flex;gap:0.625rem;padding-top:1rem;border-top:1px solid var(--border);">
+              <div style="display:flex;gap:0.75rem;">
                 <a href="https://github.com/CIMILab" target="_blank" rel="noopener noreferrer"
-                  class="btn btn-ghost btn-sm" aria-label="GitHub">
-                  <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85.004 1.7.115 2.5.337 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12c0-5.52-4.48-10-10-10z" />
-                  </svg>
-                  GitHub
-                </a>
-                <a href="mailto:deycimilab@gmail.com" class="btn btn-ghost btn-sm">
-                  <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    viewBox="0 0 24 24">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                    <polyline points="22,6 12,13 2,6" />
-                  </svg>
-                  Email
-                </a>
+                  class="btn btn-ghost btn-sm" aria-label="GitHub">GitHub</a>
+                <a href="mailto:deycimilab@gmail.com" class="btn btn-ghost btn-sm">Email</a>
               </div>
             </div>
 
