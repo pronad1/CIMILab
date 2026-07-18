@@ -1,6 +1,6 @@
 # CIMILab Website
 
-> **✨ Live Website:** [Demo](https://pronad1.github.io/CIMILab/people.html)
+> **✨ Live Website:** [Demo](https://pronad1.github.io/CIMILab/index.html)
 
 A fully static HTML/CSS/JavaScript website for the **Computation Informatics and Machine Intelligence Lab (CIMILab)** at the University of Missouri, MU Institute for Data Science and Informatics (MUIDSI).
 
