@@ -14,37 +14,6 @@ A fully static HTML/CSS/JavaScript website for the **Computation Informatics and
 | **Fonts** | Google Fonts — Inter, IBM Plex Serif, JetBrains Mono |
 | **Icons** | Inline SVG (no icon library dependency) |
 
-## Structure
-
-```
-.
-├── index.html            ← Home page
-├── about.html            ← About CIMILab
-├── research.html         ← Research pillars
-├── projects.html         ← Project listing (filterable)
-├── publications.html     ← Publications (filterable + BibTeX)
-├── people.html           ← Team / People
-├── news.html             ← News listing
-├── contact.html          ← Contact + Formspree form
-├── join-us.html          ← Open positions
-├── resources.html        ← Reproducibility standard + repos
-├── 404.html              ← Custom 404 page
-├── projects/
-│   ├── dsanet-isles.html
-│   ├── dernet-spinal.html
-│   ├── biomed-llm.html
-│   └── ...
-├── news/
-│   └── *.html
-├── images/               ← All site images
-└── assets/
-    ├── style.css         ← Full design system CSS
-    └── js/
-        ├── nav.js        ← Sticky navbar + mobile menu
-        ├── hero-canvas.js← Hex grid + particle animation
-        ├── stats-counter.js← Animated counters (IntersectionObserver)
-        ├── filters.js    ← Project/publication filter tabs
-        └── bibtex.js     ← Copy BibTeX to clipboard
 ```
 
 ## Running Locally
