@@ -13,7 +13,7 @@ This project is structured as a polished, academic-style research lab website wi
 - **Professional presentation** with polished calls to action, thoughtful content hierarchy, and a modern academic tone.
 - **Accessibility and maintainability** by keeping the site static, responsive, and easy to update without a build step.
 
-## Updating Content
+## Content
 
 Content is embedded directly in the HTML files. To update:
 
